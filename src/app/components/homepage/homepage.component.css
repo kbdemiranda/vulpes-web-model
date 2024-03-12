@@ -1,0 +1,39 @@
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+  gap: 10rem;
+}
+.navegacao .servicos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  border: black 1px solid;
+  border-radius: 40px;
+}
+.navegacao .servicos:hover {
+  transition: 1s;
+  background-color: #EE7505;
+}
+.navegacao .servicos .link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  transition: 0.3s;
+  text-align: center;
+}
+.navegacao .servicos .link:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+.navegacao .servicos .link .icon {
+  width: 60%;
+}
+.navegacao .servicos .link .titulo {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=homepage.component.css.map */

@@ -1,0 +1,21 @@
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  .text{
+    font-size: 1.2rem;
+  }
+
+  .link{
+    color: #EE7505;
+    text-decoration: none;
+
+    &:hover{
+      color: #FFA500;
+    }
+  }
+
+}

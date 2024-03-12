@@ -1,0 +1,51 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  .logo{
+    align-items: center;
+    margin: 0 0 0 1rem;
+    width: 10%;
+    img{
+      width: calc(128px * 1.5);
+    }
+  }
+
+  .menu{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+
+    a{
+      text-decoration: none;
+      color: #000;
+      transition: all 0.3s ease;
+      &:hover{
+        color: #EE7505;
+      }
+    }
+  }
+
+  .usuario{
+    display: flex;
+    align-items: center;
+    width: 10%;
+
+    button{
+      width: 100%;
+      background: #EE7505;
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0 1rem;
+      cursor: pointer;
+      border-radius: 40px;
+      font-size: 1.5rem;
+    }
+  }
+}

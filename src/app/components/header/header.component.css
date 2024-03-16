@@ -1,11 +1,11 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 15rem;
 }
 .navbar .logo {
   align-items: center;
-  margin: 0 0 0 1rem;
   width: 10%;
 }
 .navbar .logo img {
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .navbar .menu a {
   text-decoration: none;
@@ -37,11 +37,11 @@
   background: #EE7505;
   color: #fff;
   border: none;
-  padding: 1rem 2rem;
+  padding: 0.7rem 1.8rem;
   margin: 0 1rem;
   cursor: pointer;
   border-radius: 40px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=header.component.css.map */

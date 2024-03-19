@@ -1,1 +1,24 @@
-<p>detalhar-assinante works!</p>
+<section class="detalhes-assinante">
+  <div class="avatar-info">
+    <img src="/assets/user.svg" alt="Avatar de Usuário" class="avatar">
+      <label for="valor" class="label-usuario">Valor Total</label>
+      <input type="text" class="input-usuario" id="valor" name="valor">
+  </div>
+  <div class="container">
+    <form method="post">
+      <div class="form-group">
+        <label class="label-usuario" for="nome">Nome</label>
+        <input class="input-usuario" type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label class="label-usuario" for="email">E-mail</label>
+        <input class="input-usuario" type="text" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label class="label-usuario" for="streamings">Nome</label>
+        <textarea id="streamings" name="streamings" rows="4"></textarea>
+      </div>
+      <input class="botao" type="submit" value="Voltar">
+    </form>
+  </div>
+</section>
